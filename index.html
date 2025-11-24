@@ -10,16 +10,20 @@
 
   <!-- container so you can style the whole thing -->
   <div class="counter-container" data-counter-container>
+   
     <!-- 1) display section with initial number 0 -->
     <section class="counter-display" data-counter-display aria-live="polite">
       <span class="counter-value" data-counter-value>0</span>
     </section>
-
+  
   <div class="button-group">
     <!-- 2) addition button section -->
     <section class="counter-add" data-counter-add>
       <button type="button" class="add-btn" data-add>+</button>
     </section>
+
+     <!-- Right side stacked buttons -->
+    <div class="right-stack">
 
     <!-- 3) subtraction button section -->
     <section class="counter-subtract" data-counter-subtract>
@@ -28,8 +32,9 @@
 
     <!-- 4) reset button section -->
     <section class="counter-reset" data-counter-reset>
-      <button type="button" class="reset-btn" data-reset>Reset</button>
+      <button type="button" class="reset-btn" data-reset>↻</button>
     </section>
+    </div>
   </div>
 
   </div>

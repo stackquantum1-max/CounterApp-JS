@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #101820;
+  background: #813b3b;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 30px rgba(0,0,0,0.3);
-  border: 7px solid #000;
+  border: 7px solid #910404;
   position: relative;
 }
 
@@ -32,10 +32,98 @@ body {
   content: "";
   width: 100px;
   height: 25px;
-  background: #000;
+  background: #910404;
   border-radius: 0 0 8px 10px;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.counter-display {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.counter-value {
+  font-size: 170px;
+  font-weight: 700;
+  color: #910404;
+  line-height: 1;
+}
+
+.button-group {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.counter-add {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  flex: 1;
+  font-size: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}
+
+.counter-subtract,
+.counter-reset {
+  flex: 1;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-subtract button,
+.counter-reset button {
+  width: 100%;
+  height: 90%;
+  font-size: 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-bottom: 10px;
+}
+
+.counter-subtract button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.counter-reset button {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.counter-subtract button:hover,
+.counter-reset button:hover {
+  transform: scale(1.05);
+}
+
+.right-stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
