@@ -1,11 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Counter App</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  
+
+  <!-- container so you can style the whole thing -->
+  <div class="counter-container" data-counter-container>
+    <!-- 1) display section with initial number 0 -->
+    <section class="counter-display" data-counter-display aria-live="polite">
+      <span class="counter-value" data-counter-value>0</span>
+    </section>
+
+  <div class="button-group">
+    <!-- 2) addition button section -->
+    <section class="counter-add" data-counter-add>
+      <button type="button" class="add-btn" data-add>+</button>
+    </section>
+
+    <!-- 3) subtraction button section -->
+    <section class="counter-subtract" data-counter-subtract>
+      <button type="button" class="sub-btn" data-sub>-</button>
+    </section>
+
+    <!-- 4) reset button section -->
+    <section class="counter-reset" data-counter-reset>
+      <button type="button" class="reset-btn" data-reset>Reset</button>
+    </section>
+  </div>
+
+  </div>
 </body>
 </html>
