@@ -74,12 +74,13 @@ body {
 .add-btn {
   flex: 1;
   font-size: 40px;
-  background-color: #4CAF50;
+  background-color: #813b3b;
   color: #fff;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: transform 0.2s;
+  margin-top: -9px;
 }
 
 .add-btn:hover {
@@ -107,12 +108,12 @@ body {
 }
 
 .counter-subtract button {
-  background-color: #f44336;
+  background-color: #910404;
   color: #fff;
 }
 
 .counter-reset button {
-  background-color: #2196F3;
+  background-color: #000000;
   color: #fff;
 }
 
