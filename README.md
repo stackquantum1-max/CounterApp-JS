@@ -21,3 +21,6 @@ The app allows users to increment, decrement, and reset a counter, with a **phon
 1. **Clone the repository**
    ```bash
    git clone https://github.com/stackquantum1-max/CounterApp-JS.git
+
+## View live demo here
+https://stackquantum1-max.github.io/CounterApp-JS
