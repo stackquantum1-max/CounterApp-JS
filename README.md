@@ -15,6 +15,11 @@ The app allows users to increment, decrement, and reset a counter, with a **phon
 - **Clean UI:** Simple, modern button styles with hover and click effects.
 
 ---
+## Demo Screenshots
+
+![Counter App Screenshot 1](assets/images/counterpix.png.png)  
+![Counter App Screenshot 2](assets/images/counterpix2.png.png)  
+![Counter App Screenshot 3](assets/images/counterpix3.png.png)
 
 ## Installation
 
